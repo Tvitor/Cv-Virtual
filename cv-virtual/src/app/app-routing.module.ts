@@ -5,7 +5,11 @@ import {HomeComponent} from './home/home.component';
 import { ContatoComponent } from './contato/contato.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 const routes: Routes = [
-
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: 'home'
+  }
    ]
 
 @NgModule({

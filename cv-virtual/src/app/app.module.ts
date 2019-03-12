@@ -16,7 +16,7 @@ import { HomeComponent } from './home/home.component';
     PortfolioComponent,
     ContatoComponent,
     HomeComponent,
-    AppRoutingModule
+   
     
   
   ],
