@@ -1,23 +1,4 @@
-body{
-    background-image: linear-gradient(to right top, #ffffff, #f2f3f4, #e4e7e7, #edeeee, #e2e2e2);
-    text-align: center;
-    align-content: center;
-}
 
-.container {
-
-}
-
-
-
-.botoes {
-   background-color: rgb(192, 39, 39);
-}
-
-.row {
-   margin:0;
-}
-
-.colum1, .colum2 {
-    background-color: rgb(255, 255, 255);
+.texto {
+    font-size: 18px;
 }
