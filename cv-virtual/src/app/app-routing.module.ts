@@ -1,12 +1,16 @@
+import { AppComponent } from './app.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
-import { SobremimComponent} from './sobremim/sobremim.component';
-
+import {HomeComponent} from './home/home.component';
+import { ContatoComponent } from './contato/contato.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { SobremimComponent } from './sobremim/sobremim.component';
 const routes: Routes = [
-  {path: '',
-    redirectTo: 'sobremim', pathMatch: 'full'},
-    { path: 'sobremim', component: SobremimComponent }
+  {path: 'home', component: HomeComponent},
+  {path: 'sobremim', component:SobremimComponent},
+  {path: 'contato', component:ContatoComponent},
+  {path:'portfolio', component:PortfolioComponent}
    ]
 
 @NgModule({
