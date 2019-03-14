@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContatoComponent } from './contato/contato.component';
 import { HomeComponent } from './home/home.component';
+import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
+import {HttpClientModule} from  '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -16,13 +18,16 @@ import { HomeComponent } from './home/home.component';
     PortfolioComponent,
     ContatoComponent,
     HomeComponent,
-   
-    
-  
+
+
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule,
+    AppRoutingModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
