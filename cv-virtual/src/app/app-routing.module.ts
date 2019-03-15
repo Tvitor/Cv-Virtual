@@ -1,3 +1,4 @@
+import { SkillComponent } from './skill/skill.component';
 import { AppComponent } from './app.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -10,7 +11,8 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'sobremim', component:SobremimComponent},
   {path: 'contato', component:ContatoComponent},
-  {path:'portfolio', component:PortfolioComponent}
+  {path:'portfolio', component:PortfolioComponent},
+  {path:'skills', component:SkillComponent}
    ]
 
 @NgModule({
