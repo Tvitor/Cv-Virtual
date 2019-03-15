@@ -8,6 +8,7 @@ body {
     background-image: url(../src/assets/hero.jpg);
     text-align: justify;
     align-content: center;
+    background-size: cover;
 
 }
 
