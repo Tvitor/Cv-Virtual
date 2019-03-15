@@ -1,12 +1,12 @@
 <div class="row">
-  <div class="col-md-12">
-    <h5 class= "habilidades">Habilidades:</h5>
+  <div class="col-md-6 habilidades">
+
     <div *ngFor="let skill of skillList">
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-6">
           {{skill.nome | uppercase}}
         </div>
-        <div class="col-md-10">
+        <div class="col-md-2">
           <i class="material-icons">location_on</i>{{skill.valor}}
         </div>
       </div>
