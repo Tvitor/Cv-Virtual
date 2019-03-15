@@ -8,6 +8,7 @@ import { ContatoComponent } from './contato/contato.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { SobremimComponent } from './sobremim/sobremim.component';
 const routes: Routes = [
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
   {path: 'sobremim', component:SobremimComponent},
   {path: 'contato', component:ContatoComponent},
