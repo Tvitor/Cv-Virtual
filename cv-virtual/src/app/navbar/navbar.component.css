@@ -34,3 +34,17 @@ a {
 .ultimonav {
   margin-bottom: 400px;
 }
+
+
+@media only screen and (min-width: 993px) {
+  .avatar img{
+    width: 211px;
+    margin-bottom: 2px;
+    margin-top: 77px;
+  }
+  .btn[_ngcontent-c1], .btn-large[_ngcontent-c1], .btn-small[_ngcontent-c1] {
+  margin-left: 52px;
+ }
+
+ 
+}

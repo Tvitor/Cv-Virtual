@@ -1,14 +1,23 @@
-
 a {
-  text-decoration:none;
+  text-decoration: none;
   color: inherit;
 
 }
 
 @media (min-width: 600px) {
-  .container{
-      max-width: 1630px;
+  .container {
+    max-width: 1630px;
   }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 95%;
+
+  }
+ .h1 {
+  margin-top: 177px;
+ }
 }
 
 .container {
@@ -21,7 +30,8 @@ h1 {
 
 }
 
-h1, h5 {
+h1,
+h5 {
   margin-right: 150px;
   color: rgb(31, 129, 185);
 }
@@ -30,3 +40,4 @@ h5 {
   margin-bottom: 325px;
   font-size: 35px;
 }
+

@@ -3,8 +3,10 @@
 <div class="container ">
 
   <div class="row">
+      <div class="col-md-3 corColuna">
     <app-navbar></app-navbar>
-    <div class="col-md-9 corColuna">
+    </div>
+    <div class="col-md-8 corColuna">
 
        <a [routerLink]="['/home']"><h1 class="h1">Vitor Sales</h1><h5 class="h5">Desenvolvedor Full Stack</h5></a>
        <div style="text-align:center">
@@ -12,9 +14,10 @@
 
       <router-outlet></router-outlet>
     </div>
-    <div class="col-auto ">
+    
+    <div class="col-1 ">
 
-    </div>
+      </div>
   </div>
 </div>
 
