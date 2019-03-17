@@ -8,3 +8,36 @@
   font-size: 25px;
 
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+@media only screen and (min-width: 993px) {
+  
+  .h1 {
+   margin-top: 160px;
+  }
+ }
+ 
+ 
+ 
+ h1 {
+   margin-top: 177px;
+   font-size: 100px;
+ 
+ }
+ 
+ h1,
+ h5 {
+   margin-right: 150px;
+   color: rgb(31, 129, 185);
+ }
+ 
+ h5 {
+   margin-bottom: 150px;
+   font-size: 35px;
+ }
+ 
