@@ -1,9 +1,31 @@
 .habilidades {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
+  background-color: white;
+  color: rgb(31, 129, 185);
   margin-bottom: 30px;
-  margin-left: 155px;
-  border-width: medium;
-  border-style: outset;
-  border-color:rgb(31, 129, 185);
+  display: flex;
+  margin-left: 5px;
+    height: 644px;
+    display: block;
+    opacity: 0.5;
+    margin-top: 468px;
+    margin-right: 149px;
+}
+
+.percent {
+  margin-left: 305px;
+  margin-bottom: -3px;
+}
+
+.skills {
+  margin-top: 25px;
+}
+
+.topo {
+  margin-top: 250px;  
+}
+
+.display-4 {
+  color:rgb(31, 129, 185);
 }

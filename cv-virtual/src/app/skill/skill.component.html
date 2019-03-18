@@ -1,15 +1,17 @@
-<div class="row">
-  <div class="col-md-6 habilidades">
 
+<div class="row">
+  <div class="col-md shadow p-3 mb-5 bg-white rounded habilidades "> 
     <div *ngFor="let skill of skillList">
-      <div class="row">
-        <div class="col-md-6">
+ 
+          <div class="skills">
+              
           {{skill.nome | uppercase}}
         </div>
-        <div class="col-md-2">
+        <div class="col-md">
+          <div class="percent">
           <i class="material-icons">location_on</i>{{skill.valor}}
         </div>
-      </div>
-    </div>
-  </div>
-</div>
+        </div>
+        </div>
+        </div>
+      

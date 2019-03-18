@@ -1,21 +1,13 @@
-
-
-<div class="container ">
-
+<div class="container">
   <div class="row">
-    <app-navbar></app-navbar>
-    <div class="col-md-9 corColuna">
-
-       <a [routerLink]="['/home']"><h1 class="h1">Vitor Sales</h1><h5 class="h5">Desenvolvedor Full Stack</h5></a>
-       <div style="text-align:center">
-        </div>
-
+    <div class="col-md-3 corColuna">
+      <app-navbar></app-navbar>
+    </div>
+    <div class="col-md-8 corColuna">
       <router-outlet></router-outlet>
     </div>
-    <div class="col-auto ">
-
+    <div class="col-md-1">
+        <i class="fab fa-twitter-square"></i>
     </div>
   </div>
 </div>
-
-

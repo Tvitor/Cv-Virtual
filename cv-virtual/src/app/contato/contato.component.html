@@ -1,1 +1,35 @@
-<span>Email:</span><a href="contato.vst@gmail.com">contato.vst@gmail.com</a>
+
+
+
+<section class="mb-4 shadow-lg p-3 mb-5 bg-white rounded">
+
+        <div class="topo"></div>
+        
+        <div class="text1">
+                
+        <p class="text-center w-responsive mx-auto mb-5 text1">Você tem alguma dúvida? Por favor, não hesite em perguntar. Estarei a disposição para atende-lo.
+        </p>
+        </div>
+        <div class="row">
+    
+ 
+            <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" [formGroup]="contactForm" (ngSubmit)="Enviar()">
+                            <input type="hidden" name="contact_number" formControlName="contact_number">
+                            <label>Nome</label>
+                            <input type="text" name="user_name" formControlName="user_name">
+                            <label>Email</label>
+                            <input type="email" name="user_email" formControlName="user_email">
+                            <label>Messagem</label>
+                            <textarea name="tet" formControlName="text"></textarea>
+                            <input class="btn btn-primary" type="submit" value="Enviar">
+                        </form>
+
+          
+            </div>
+            
+    
+        </div>
+    
+    </section>
+    <!--Section: Contact v.2-->
