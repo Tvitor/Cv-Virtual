@@ -1,24 +1,30 @@
+<div class="imagem">
+  <img src="../assets/0.jpeg" alt="Avatar" class="md-avatar rounded-squad avatar">
+</div>
+
 <ul class="nav  corColuna">
-  <li class="nav-item avatar">
-    <a [routerLink]="['/home']"><img src="../assets/0.jpeg" alt="Avatar" class="md-avatar rounded-squad"></a>
 
-  </li>
   <li>
-
-    <a class="nav-link waves-effect waves-light btn-large borda1" [routerLink]="['/home']">Resumo</a>
-
+    <div class="nome">
+      <a [routerLink]="['/home']">
+        <h3>Vitor Sales</h3>
+        <div class="linha"></div>
+        <div class="linha"></div>
+        <h5>Desenvolvedor <br> Full Stack</h5>
+      </a>
+    </div>
   </li>
 
+  <li>
+    <a class="nav-link waves-effect waves-light btn-large borda1" [routerLink]="['/home']">Resumo</a>
+  </li>
   <li class="nav-item">
     <a class="nav-link waves-effect waves-light btn-large borda4" [routerLink]="['/skills']">Habilidades</a>
   </li>
   <li class="nav-item">
-      <a class="nav-link waves-effect waves-light btn-large borda2" [routerLink]="['/portfolio']">Portfólio</a>
-
+    <a class="nav-link waves-effect waves-light btn-large borda2" [routerLink]="['/portfolio']">Portfólio</a>
   </li>
   <li class="nav-item ultimonav">
-      <a class="nav-link waves-effect waves-light btn-large borda3" [routerLink]="['/contato']">Contato</a>
-
+    <a class="nav-link waves-effect waves-light btn-large borda3" [routerLink]="['/contato']">Contato</a>
   </li>
-
 </ul>

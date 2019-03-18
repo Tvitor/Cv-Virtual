@@ -1,21 +1,15 @@
-.avatar img {
+.avatar, img {
   border-radius: 50%;
-  padding: 2%;
-  margin-top: 177px;
-  width: 303px;
-  border-style: outset;
-  padding: 0%;
-  margin-left: 15px;
-  margin-bottom: 71px;
-  border-color: rgb(31, 129, 185);
-  border-width: 15px;
+    padding: 2%;
+    margin-top: 25px;
+    width: 263px;
+    border-style: outset;
+    padding: 0%;
+    margin-left: 3px;
+    margin-bottom: 71px;
+    border-color: rgb(31, 129, 185);
+    border-width: 15px;
 }
-
-a {
-  color: rgb(2, 2, 2);
-   font-weight: bold;
-}
-
 
 
 
@@ -28,7 +22,7 @@ a {
 }
 
 .borda1 {
-  margin-top: 150px;
+  margin-top: 48px;
 }
 
 .ultimonav {
@@ -43,8 +37,41 @@ a {
     margin-top: 77px;
   }
   .btn[_ngcontent-c1], .btn-large[_ngcontent-c1], .btn-small[_ngcontent-c1] {
-  margin-left: 52px;
+  margin-left: 60px;
  }
 
  
+}
+
+a[_ngcontent-c1] {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+h1,h2,h3,h4,h5 {
+color: rgb(31, 129, 185);
+ 
+}
+
+h3 {
+  margin-top: -37px;
+    margin-left: 34px;
+    margin-bottom: -6px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+
+}
+
+.nome {
+  
+}
+
+.linha {
+  background-color: rgb(31, 129, 185);
+  padding: 1px;
+  margin-top: 7px;
+  width: 275px;
 }
