@@ -14,7 +14,6 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { SkillComponent } from './skill/skill.component';
-import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -35,7 +34,6 @@ import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
     ReactiveFormsModule,
     AppRoutingModule,
     HttpClientModule,
-    NgbModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule, // imports firebase/firestore, only needed for database features
     AngularFireDatabaseModule // imports firebase/storage only needed for storage features
