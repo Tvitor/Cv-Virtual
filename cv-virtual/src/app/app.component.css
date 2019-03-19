@@ -1,4 +1,4 @@
-a {
+/* a {
   text-decoration: none;
   color: inherit;
 
@@ -40,4 +40,63 @@ h5 {
   margin-bottom: 150px;
   font-size: 35px;
 }
+ */
 
+ /*
+
+.habilidades {
+  list-style-type: none;
+}
+
+.resumo {
+  font-size: 25px;
+
+}
+
+@media only screen and (min-width: 993px) {
+
+
+ }
+
+ .col-md {
+  margin-top: 127px;
+ }
+
+  */
+
+  .container {
+    background-color: white;
+    display:fixed;
+    height:800px;
+    width:75%;
+
+
+  }
+
+  .container-fluid {
+
+  height: 100%;
+  width: 100%;
+
+  }
+
+
+.bg-light {
+  background-color: #f1f1f1b7!important;
+  margin-top: 20px;
+}
+
+.bg-white {
+  background-color: #d4d4d49a!important;
+  height: 400px;
+}
+
+h1,h2,h3,h4,h5 {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.conteudo {
+margin-left:14px;
+margin-right: 14px;
+}

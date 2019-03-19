@@ -1,10 +1,10 @@
 
 <div class="row">
-  <div class="col-md shadow p-3 mb-5 bg-white rounded habilidades "> 
-    <div *ngFor="let skill of skillList">
- 
+  <div class="habilidades ">
+    <div fxLayout="row"*ngFor="let skill of skillList">
+
           <div class="skills">
-              
+
           {{skill.nome | uppercase}}
         </div>
         <div class="col-md">
@@ -14,4 +14,5 @@
         </div>
         </div>
         </div>
-      
+        </div>
+

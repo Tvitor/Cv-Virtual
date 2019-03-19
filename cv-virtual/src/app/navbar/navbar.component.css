@@ -40,7 +40,7 @@
   margin-left: 60px;
  }
 
- 
+
 }
 
 a[_ngcontent-c1] {
@@ -50,7 +50,9 @@ a[_ngcontent-c1] {
 
 h1,h2,h3,h4,h5 {
 color: rgb(31, 129, 185);
- 
+padding: 1px;
+margin-top: 7px;
+width: 275px;
 }
 
 h3 {
@@ -66,7 +68,7 @@ a {
 }
 
 .nome {
-  
+
 }
 
 .linha {

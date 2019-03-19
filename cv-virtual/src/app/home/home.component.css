@@ -1,21 +1,82 @@
-
-
-.habilidades {
-  list-style-type: none;
+.imagem {
+  width: 125px;
+  border-radius: 67px;
 }
 
-.resumo {
-  font-size: 25px;
-  
+h4,h5 {
+  color: rgba(19, 18, 18, 0.733);
+
+}
+h3 {
+
+}
+h4 {
+  font-weight: bold;
+  align-content: center;
+
+    align-items: center;
+/*
+    left: 47%;
+    right: 67%;
+    bottom: 50%;
+    top: 20%;
+    width: 100%; */
 }
 
-@media only screen and (min-width: 993px) {
-  
-  
- }
- 
- .col-md {
-  margin-top: 127px;
- }
- 
- 
+h5 {
+  padding: 1px;
+  margin-top: 7px;
+
+  /* top: 30%;
+  left: 3%;
+  right: 31%;
+  width: 100%; */
+}
+
+.sublinhado {
+  border-style: inset;
+  width: 23%;
+
+  /* left: 42%;
+  top: 40%; */
+}
+
+/* .texto2 {
+
+  top: 45%;
+  width: 55%;
+  text-align: justify;
+} */
+
+.linha {
+  background-color: rgba(206, 206, 206, 0.5);
+  padding: 1px;
+
+    /* margin influencia na posicao do titulo */
+
+}
+
+.titulo {
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+  color: rgba(0,0,0,.5);
+}
+
+.subtitulo {
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  color: rgba(32, 32, 32, 0.5);
+
+}
+
+.texto2 {
+  color: rgba(0,0,0,.5);
+  margin-top: 140px;
+}
+
+.conteudo {
+  margin-right: 10px;
+  margin-left: 10px;
+}

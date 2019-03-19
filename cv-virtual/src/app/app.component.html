@@ -1,4 +1,4 @@
-<div class="container">
+<!-- <div class="container">
   <div class="row">
     <div class="col-md-3 corColuna">
       <app-navbar></app-navbar>
@@ -10,4 +10,47 @@
         <i class="fab fa-twitter-square"></i>
     </div>
   </div>
+</div> -->
+<div class="container-fluid d-flex flex-column">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/home']">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/sobremim']">Resumo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/skills']">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/portfolio']">Portfólio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/contato']">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+      <div class="row linha2">
+          <div class="col-sm shadow-lg p-3 mb-5 bg-white rounded conteudo">
+              <router-outlet></router-outlet>
+        </div>
+      </div>
+
+  </div>
 </div>
+

@@ -1,14 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
-.corColuna {
+/* .corColuna {
     background-color: #ffffff;
-}
+} */
 
 body {
-    background-image: url(../src/assets/ai-artificial-intelligence-blur-546819.jpg);
+    /* background-image: url(../src/assets/ai-artificial-intelligence-blur-546819.jpg); */
     text-align: justify;
     align-content: center;
-    background-size: cover;
+
+
+
+  font-style: normal;
+  font-weight: 200;
 
 }
 
